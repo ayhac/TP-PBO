@@ -12,7 +12,7 @@ package javaapplication4;
 public class Student {
     private String name;
     private long studentId;
-    private boolean isMale;
+    private boolean isMale = true;
     private double grade;
    
      public void getStudentId(long studentId) {
